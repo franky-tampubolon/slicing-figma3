@@ -1,34 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Slicing Figma 3</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@400;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
+
 <body>
-    <header class="header">
-        <div class="container">
-            <nav class="navbar">
-                <div class="logo">
-                    <img src="./assets/images/logo.png" alt="" class="img-logo">
-                    <div class="logo-name">Hounter</div>
-                </div>
-                <div class="navbar-menu">
-                    <ul class="nav-menu">
-                        <li><a href="" class="btn btn-transparent">About Us</a></li>
-                        <li><a href="" class="btn btn-transparent">Article</a></li>
-                        <li><a href="" class="btn btn-transparent">Property</a></li>
-                        <li><a href="" class="btn btn-secondary btn-login">Sign Up!</a></li>
-                    </ul>
-                </div>
-            </nav>
+    <nav class="flex-row between align-center">
+        <div class="flex-row align-center" id="left-side">
+            <img src="./assets/images/logo.png" alt="logo">
+            <h5>Hounter</h5>
         </div>
-    </header>
+        <div id="right-side">
+            <div class="flex-row align-center" id="navigator">
+                <div class="btn btn-transparent">About us</div>
+                <div class="btn btn-transparent">Article</div>
+                <div class="btn btn-transparent">
+                    Property
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="btn btn-transparent">Sign Up</div>
+            </div>
+        </div>
+    </nav>
+
+    <section id="top-body" class="flex-row align-center">
+        <div id="left-box" class="half-box">
+            <img src="./assets/images/Color Blur.png" alt="img-blur" class="img-blur">
+            <div class="word-wrap">
+                <h1>
+                    find the place to live <span class="white-font">your dreams</span> easily here
+                </h1>
+                <p class="font-gray">Everything you need about finding your place to live will be here, where it will be
+                    easier for you
+                </p>
+            </div>
+        </div>
+        <div class="half-box" id="right-box">
+            <img src="./assets/images/Img.png" alt="" width="670">
+        </div>
+    </section>
 </body>
+
 </html>

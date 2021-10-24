@@ -1,0 +1,39 @@
+.btn-transparent{
+    background-color: transparent;
+    border-radius: 32px;
+    border: solid 1px white;
+    color: white;
+}
+
+.btn-login{
+    background-color: #D1FAE5;
+    border-radius: 32px;
+    border: none;
+    color: #047857;
+    font-weight: 600;
+}
+
+.white-font{
+    color: white;
+    text-shadow: -1px 0 black,  0 1px black, 0 -1px black ;
+}
+
+.word-wrap{
+    margin-top: -20em;
+    margin-left: 7em;
+    
+}
+
+.word-wrap > h1{
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.font-gray{
+    margin-top: 24px;
+    color: #626687;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;  
+}
