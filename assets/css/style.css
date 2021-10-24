@@ -1,0 +1,88 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    line-height: 28px;
+    font-family: 'Lexend', sans-serif;;
+}
+
+.header{
+    background-color: transparent;
+    position: relative;
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;    
+}
+
+.logo{
+    margin-top: 40px;
+    display: flex;
+}
+
+.img-logo{
+    width: 40px;
+    height: 40px;
+}
+.logo-name{
+    padding: 10px;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+.navbar-menu{    
+    background: linear-gradient(16.74deg, #0C1537 -6.09%, rgba(12, 21, 55, 0) 32.63%), url('../images/image 6.png');
+    position: absolute;
+    width: 720px;
+    height: 720px;
+    left: 920px;
+    top: 0;
+    border-radius: 0px 0px 0px 80px;
+    display: flex;
+    justify-content: flex-start;
+}
+.nav-menu{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 60px;
+}
+
+.nav-menu li{
+    list-style: none;
+    margin-right: 24px;
+    margin-top: -10px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.btn{
+    background-color: transparent;
+    border-radius: 32px;
+    border: solid 1px black;
+    padding: 8px 16px;
+}
+
+.btn-transparent{
+    background-color: transparent;
+    border: solid 1px white;
+    color: white;
+}
+
+.btn-secondary{
+    background-color: #D1FAE5;
+    border: none;
+    color: #047857;
+}
+
+.btn-login{
+    margin-left: 60px;
+}
